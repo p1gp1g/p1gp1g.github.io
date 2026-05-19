@@ -1,16 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://webauthn.io"
-  }
-},
+[
   {
-  "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.singularkey.androidfido2",
-    "sha256_cert_fingerprints":
-    ["c5:8b:e3:9b:36:b3:67:12:d7:0c:da:c5:9d:65:2a:fc:43:9b:ae:1b:76:c9:7d:a1:7e:69:2b:7a:15:ab:27:96"]
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "fr.s1m.credpoc",
+      "sha256_cert_fingerprints": [
+        "7B:FA:06:2D:F4:3D:59:6A:26:CE:E3:71:7E:F4:A8:6D:61:98:DA:FB:C5:CC:07:04:49:6F:28:29:E5:0A:9B:71"
+      ]
+    }
   }
-}]
+]
